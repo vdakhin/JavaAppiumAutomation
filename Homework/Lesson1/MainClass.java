@@ -1,5 +1,3 @@
-import com.sun.org.apache.xpath.internal.objects.XString;
-
 public class MainClass
 {
     public static int getLocalNumber()
