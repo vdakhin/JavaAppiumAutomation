@@ -10,17 +10,17 @@ public class MainClassTest
     }
 
 
-    MainClass Helper = new MainClass();
+    MainClass getClassNumber = new MainClass();
     @Test
     public void testGetClassNumber()
     {
-        Assert.assertTrue("Number <= 45",Helper.getClassNumber() > 45);
+        Assert.assertTrue("Number <= 45",getClassNumber.getClassNumber() > 45);
     }
 
-    MainClass getString = new MainClass();
+    MainClass getClassString = new MainClass();
     @Test
-    public boolean testGetClassString()
+    public void testGetClassString()
     {
-        Assert.assertTrue("There is not a 'Hello' word", getString.getClassString());
+        Assert.assertTrue("There is not a 'Hello' word", getClassString.getClassString().toLowerCase().contains("hello"));
     }
 }

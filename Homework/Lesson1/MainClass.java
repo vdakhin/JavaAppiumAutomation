@@ -13,8 +13,8 @@ public class MainClass
         return class_number;
     }
 
-    private char class_string = 'Hello, world!';
-    public char getClassString()
+    private String class_string = "Hello, world!";
+    public String getClassString()
     {
         return class_string;
     }
