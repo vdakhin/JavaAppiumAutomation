@@ -53,7 +53,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.FirstTest.firstTest">
+  <component name="RunManager" selected="JUnit.FirstTest.searchAndSearchCancelTest">
     <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation" />
       <option name="PACKAGE_NAME" value="" />
@@ -68,6 +68,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FirstTest" />
       <option name="METHOD_NAME" value="firstTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest.searchAndSearchCancelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaAppiumAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="METHOD_NAME" value="searchAndSearchCancelTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,6 +105,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FirstTest.searchAndSearchCancelTest" />
         <item itemvalue="JUnit.FirstTest.firstTest" />
         <item itemvalue="JUnit.FirstTest" />
         <item itemvalue="JUnit.FirstTest.testCompareArticleTitle" />
@@ -144,34 +155,34 @@
       <screen x="0" y="23" width="1680" height="974" />
     </state>
     <state x="281" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1680.974@0.23.1680.974" timestamp="1590618278329" />
-    <state width="1638" height="261" key="GridCell.Tab.0.bottom" timestamp="1591447468389">
+    <state width="1638" height="261" key="GridCell.Tab.0.bottom" timestamp="1591454299700">
       <screen x="0" y="23" width="1680" height="974" />
     </state>
     <state width="1638" height="260" key="GridCell.Tab.0.bottom/0.23.1680.967@0.23.1680.967" timestamp="1590014757091" />
     <state width="1638" height="260" key="GridCell.Tab.0.bottom/0.23.1680.972@0.23.1680.972" timestamp="1590163007841" />
     <state width="1638" height="261" key="GridCell.Tab.0.bottom/0.23.1680.973@0.23.1680.973" timestamp="1591446238821" />
-    <state width="1638" height="261" key="GridCell.Tab.0.bottom/0.23.1680.974@0.23.1680.974" timestamp="1591447468389" />
-    <state width="1638" height="261" key="GridCell.Tab.0.center" timestamp="1591447468388">
+    <state width="1638" height="261" key="GridCell.Tab.0.bottom/0.23.1680.974@0.23.1680.974" timestamp="1591454299700" />
+    <state width="1638" height="261" key="GridCell.Tab.0.center" timestamp="1591454299699">
       <screen x="0" y="23" width="1680" height="974" />
     </state>
     <state width="1638" height="260" key="GridCell.Tab.0.center/0.23.1680.967@0.23.1680.967" timestamp="1590014757090" />
     <state width="1638" height="260" key="GridCell.Tab.0.center/0.23.1680.972@0.23.1680.972" timestamp="1590163007840" />
     <state width="1638" height="261" key="GridCell.Tab.0.center/0.23.1680.973@0.23.1680.973" timestamp="1591446238820" />
-    <state width="1638" height="261" key="GridCell.Tab.0.center/0.23.1680.974@0.23.1680.974" timestamp="1591447468388" />
-    <state width="1638" height="261" key="GridCell.Tab.0.left" timestamp="1591447468387">
+    <state width="1638" height="261" key="GridCell.Tab.0.center/0.23.1680.974@0.23.1680.974" timestamp="1591454299699" />
+    <state width="1638" height="261" key="GridCell.Tab.0.left" timestamp="1591454299698">
       <screen x="0" y="23" width="1680" height="974" />
     </state>
     <state width="1638" height="260" key="GridCell.Tab.0.left/0.23.1680.967@0.23.1680.967" timestamp="1590014757089" />
     <state width="1638" height="260" key="GridCell.Tab.0.left/0.23.1680.972@0.23.1680.972" timestamp="1590163007840" />
     <state width="1638" height="261" key="GridCell.Tab.0.left/0.23.1680.973@0.23.1680.973" timestamp="1591446238820" />
-    <state width="1638" height="261" key="GridCell.Tab.0.left/0.23.1680.974@0.23.1680.974" timestamp="1591447468387" />
-    <state width="1638" height="261" key="GridCell.Tab.0.right" timestamp="1591447468388">
+    <state width="1638" height="261" key="GridCell.Tab.0.left/0.23.1680.974@0.23.1680.974" timestamp="1591454299698" />
+    <state width="1638" height="261" key="GridCell.Tab.0.right" timestamp="1591454299699">
       <screen x="0" y="23" width="1680" height="974" />
     </state>
     <state width="1638" height="260" key="GridCell.Tab.0.right/0.23.1680.967@0.23.1680.967" timestamp="1590014757090" />
     <state width="1638" height="260" key="GridCell.Tab.0.right/0.23.1680.972@0.23.1680.972" timestamp="1590163007841" />
     <state width="1638" height="261" key="GridCell.Tab.0.right/0.23.1680.973@0.23.1680.973" timestamp="1591446238821" />
-    <state width="1638" height="261" key="GridCell.Tab.0.right/0.23.1680.974@0.23.1680.974" timestamp="1591447468388" />
+    <state width="1638" height="261" key="GridCell.Tab.0.right/0.23.1680.974@0.23.1680.974" timestamp="1591454299699" />
     <state x="328" y="88" key="SettingsEditor" timestamp="1590012788686">
       <screen x="0" y="23" width="1680" height="967" />
     </state>
@@ -180,5 +191,19 @@
       <screen x="0" y="23" width="1680" height="967" />
     </state>
     <state x="208" y="129" key="new project wizard/0.23.1680.967@0.23.1680.967" timestamp="1590012341151" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/FirstTest.java</url>
+          <line>63</line>
+          <properties class="FirstTest" method="searchAndSearchCancelTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
