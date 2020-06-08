@@ -120,12 +120,10 @@ public class FirstTest {
 
         List<WebElement> article_title = driver.findElements(By.id("org.wikipedia:id/page_list_item_title"));
 
-        System.out.println(article_title.size());
-
         for (int i = 0; i < article_title.size(); i++)
         {
             Assert.assertEquals(
-                    "some elements title does not contain 'Java'",
+                    "Some elements title does not contain 'Java'",
                     true,
                     article_title.get(i).getText().toLowerCase().contains("java")
             );
