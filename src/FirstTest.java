@@ -16,6 +16,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.net.URL;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class FirstTest {
 
@@ -462,6 +463,35 @@ public class FirstTest {
         );
     }
 
+    @Test
+    public void testArticleTitlePresent()
+    {
+        waitForElementAndClick(
+                By.xpath("//*[contains(@text, 'Search Wikipedia')]"),
+                "Cannot find 'Search Wikipedia' input",
+                5
+        );
+
+        String search_line = "java";
+        waitForElementAndSendKeys(
+                By.id("org.wikipedia:id/search_src_text"),
+                search_line,
+                "Cannot find search input",
+                5
+        );
+
+        waitForElementAndClick(
+                By.xpath("//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Object-oriented programming language']"),
+                "Cannot find 'Object-oriented programming language' article searching by " + search_line,
+                15
+        );
+
+        Assert.assertTrue(
+                "Cannot find article title",
+                assertElementPresent(By.id("org.wikipedia:id/view_page_title_text"))
+        );
+    }
+
 
     private WebElement waitForElementPresent(By by, String error_message, long timeoutInSeconds)
     {
@@ -594,5 +624,11 @@ public class FirstTest {
         {
             driver.rotate(ScreenOrientation.PORTRAIT);
         }
+    }
+
+    private boolean assertElementPresent(By by)
+    {
+        WebElement element = driver.findElement(by);
+        return element.isDisplayed();
     }
 }
