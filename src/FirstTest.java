@@ -34,6 +34,8 @@ public class FirstTest {
         capabilities.setCapability("app", "/Users/vdahin/Desktop/JavaAppiumAutomation/apks/org.wikipedia.apk");
 
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+
+        changeScreenOrientationToPortrait();
     }
 
     @After
@@ -455,5 +457,15 @@ public class FirstTest {
     {
         WebElement element = waitForElementPresent(by, error_message, timeoutInSeconds);
         return element.getAttribute(attribute);
+    }
+
+    private void changeScreenOrientationToPortrait()
+    {
+        ScreenOrientation orientation = driver.getOrientation();
+
+        if (orientation == ScreenOrientation.LANDSCAPE)
+        {
+            driver.rotate(ScreenOrientation.PORTRAIT);
+        }
     }
 }
