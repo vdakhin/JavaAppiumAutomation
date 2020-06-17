@@ -20,19 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed4abeb2-83fd-4026-aefb-0c3c977e0971" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/lib/CoreTestCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/ui/ArticlePageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/ui/MainPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/ui/MyListsPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/ui/NavigationUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/ui/SearchPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/ArticleTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/ChangeAppConditionTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/MyListsTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/SearchTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/FirstTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/lib/ui/SearchPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/lib/ui/SearchPageObject.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/ui/ArticlePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/ui/ArticlePageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/ui/MyListsPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/ui/MyListsPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/ui/SearchPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/ui/SearchPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/ArticleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/ArticleTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/MyListsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/MyListsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/SearchTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,22 +60,12 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.FirstTest.testChangeScreenOrientationOnSearchResults">
-    <configuration name="FirstTest.testAmountOfEmptySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FirstTest.testArticleTitlePresent">
+    <configuration name="FirstTest.testArticleTitlePresent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="testAmountOfEmptySearch" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstTest.testAmountOfNotEmptySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaAppiumAutomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="testAmountOfNotEmptySearch" />
+      <option name="METHOD_NAME" value="testArticleTitlePresent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,6 +76,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FirstTest" />
       <option name="METHOD_NAME" value="testChangeScreenOrientationOnSearchResults" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest.testCheckEverySearchResultTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaAppiumAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="METHOD_NAME" value="testCheckEverySearchResultTitle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FirstTest.testArticleTitlePresent" />
+        <item itemvalue="JUnit.FirstTest.testSaveTwoArticlesToMylist" />
+        <item itemvalue="JUnit.FirstTest.testCheckEverySearchResultTitle" />
         <item itemvalue="JUnit.FirstTest.testChangeScreenOrientationOnSearchResults" />
         <item itemvalue="JUnit.FirstTest.testCheckSearchArticleInBackground" />
-        <item itemvalue="JUnit.FirstTest.testAmountOfEmptySearch" />
-        <item itemvalue="JUnit.FirstTest.testAmountOfNotEmptySearch" />
-        <item itemvalue="JUnit.FirstTest.testSaveTwoArticlesToMylist" />
       </list>
     </recent_temporary>
   </component>
@@ -162,37 +159,41 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="578" y="281" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1592382747618">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state x="578" y="281" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1680.972@0.23.1680.972" timestamp="1592382747618" />
     <state x="281" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590618278329">
       <screen x="0" y="23" width="1680" height="974" />
     </state>
     <state x="281" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1680.974@0.23.1680.974" timestamp="1590618278329" />
-    <state width="1638" height="259" key="GridCell.Tab.0.bottom" timestamp="1592353357440">
-      <screen x="0" y="23" width="1680" height="972" />
+    <state width="1638" height="260" key="GridCell.Tab.0.bottom" timestamp="1592429446898">
+      <screen x="0" y="23" width="1680" height="973" />
     </state>
     <state width="1638" height="260" key="GridCell.Tab.0.bottom/0.23.1680.967@0.23.1680.967" timestamp="1590014757091" />
-    <state width="1638" height="259" key="GridCell.Tab.0.bottom/0.23.1680.972@0.23.1680.972" timestamp="1592353357440" />
-    <state width="1638" height="261" key="GridCell.Tab.0.bottom/0.23.1680.973@0.23.1680.973" timestamp="1591823269067" />
+    <state width="1638" height="260" key="GridCell.Tab.0.bottom/0.23.1680.972@0.23.1680.972" timestamp="1592427934778" />
+    <state width="1638" height="260" key="GridCell.Tab.0.bottom/0.23.1680.973@0.23.1680.973" timestamp="1592429446898" />
     <state width="1638" height="261" key="GridCell.Tab.0.bottom/0.23.1680.974@0.23.1680.974" timestamp="1591863655823" />
-    <state width="1638" height="259" key="GridCell.Tab.0.center" timestamp="1592353357439">
-      <screen x="0" y="23" width="1680" height="972" />
+    <state width="1638" height="260" key="GridCell.Tab.0.center" timestamp="1592429446897">
+      <screen x="0" y="23" width="1680" height="973" />
     </state>
     <state width="1638" height="260" key="GridCell.Tab.0.center/0.23.1680.967@0.23.1680.967" timestamp="1590014757090" />
-    <state width="1638" height="259" key="GridCell.Tab.0.center/0.23.1680.972@0.23.1680.972" timestamp="1592353357439" />
-    <state width="1638" height="261" key="GridCell.Tab.0.center/0.23.1680.973@0.23.1680.973" timestamp="1591823269066" />
+    <state width="1638" height="260" key="GridCell.Tab.0.center/0.23.1680.972@0.23.1680.972" timestamp="1592427934777" />
+    <state width="1638" height="260" key="GridCell.Tab.0.center/0.23.1680.973@0.23.1680.973" timestamp="1592429446897" />
     <state width="1638" height="261" key="GridCell.Tab.0.center/0.23.1680.974@0.23.1680.974" timestamp="1591863655822" />
-    <state width="1638" height="259" key="GridCell.Tab.0.left" timestamp="1592353357439">
-      <screen x="0" y="23" width="1680" height="972" />
+    <state width="1638" height="260" key="GridCell.Tab.0.left" timestamp="1592429446897">
+      <screen x="0" y="23" width="1680" height="973" />
     </state>
     <state width="1638" height="260" key="GridCell.Tab.0.left/0.23.1680.967@0.23.1680.967" timestamp="1590014757089" />
-    <state width="1638" height="259" key="GridCell.Tab.0.left/0.23.1680.972@0.23.1680.972" timestamp="1592353357439" />
-    <state width="1638" height="261" key="GridCell.Tab.0.left/0.23.1680.973@0.23.1680.973" timestamp="1591823269066" />
+    <state width="1638" height="260" key="GridCell.Tab.0.left/0.23.1680.972@0.23.1680.972" timestamp="1592427934777" />
+    <state width="1638" height="260" key="GridCell.Tab.0.left/0.23.1680.973@0.23.1680.973" timestamp="1592429446897" />
     <state width="1638" height="261" key="GridCell.Tab.0.left/0.23.1680.974@0.23.1680.974" timestamp="1591863655821" />
-    <state width="1638" height="259" key="GridCell.Tab.0.right" timestamp="1592353357440">
-      <screen x="0" y="23" width="1680" height="972" />
+    <state width="1638" height="260" key="GridCell.Tab.0.right" timestamp="1592429446898">
+      <screen x="0" y="23" width="1680" height="973" />
     </state>
     <state width="1638" height="260" key="GridCell.Tab.0.right/0.23.1680.967@0.23.1680.967" timestamp="1590014757090" />
-    <state width="1638" height="259" key="GridCell.Tab.0.right/0.23.1680.972@0.23.1680.972" timestamp="1592353357440" />
-    <state width="1638" height="261" key="GridCell.Tab.0.right/0.23.1680.973@0.23.1680.973" timestamp="1591823269067" />
+    <state width="1638" height="260" key="GridCell.Tab.0.right/0.23.1680.972@0.23.1680.972" timestamp="1592427934778" />
+    <state width="1638" height="260" key="GridCell.Tab.0.right/0.23.1680.973@0.23.1680.973" timestamp="1592429446898" />
     <state width="1638" height="261" key="GridCell.Tab.0.right/0.23.1680.974@0.23.1680.974" timestamp="1591863655822" />
     <state width="1638" height="324" key="GridCell.Tab.1.bottom" timestamp="1591598284255">
       <screen x="0" y="23" width="1680" height="973" />
@@ -228,19 +229,5 @@
     <state x="505" y="236" width="670" height="672" key="search.everywhere.popup/0.23.1680.967@0.23.1680.967" timestamp="1592044912751" />
     <state x="505" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.972@0.23.1680.972" timestamp="1592353478399" />
     <state x="505" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.973@0.23.1680.973" timestamp="1591650095689" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/lib/ui/MyListsPageObject.java</url>
-          <line>28</line>
-          <properties class="lib.ui.MyListsPageObject" method="openFolderByName">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

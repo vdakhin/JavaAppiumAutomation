@@ -116,4 +116,9 @@ public class ArticlePageObject extends MainPageObject
                 5
         );
     }
+
+    public boolean titleElementPresent()
+    {
+        return this.assertElementPresent(By.id(TITLE));
+    }
 }

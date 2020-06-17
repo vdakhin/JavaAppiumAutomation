@@ -3,6 +3,9 @@ package tests;
 import lib.CoreTestCase;
 import lib.ui.SearchPageObject;
 import org.junit.Test;
+import org.openqa.selenium.WebElement;
+
+import java.util.List;
 
 public class SearchTests extends CoreTestCase
 {
@@ -51,5 +54,25 @@ public class SearchTests extends CoreTestCase
         SearchPageObject.typeSearchLine(search_line);
         SearchPageObject.waitForEmptyResultsLabel();
         SearchPageObject.assertThereIsNoResultOfSearch();
+    }
+
+    @Test
+    public void testCheckEverySearchResultTitle()
+    {
+        SearchPageObject SearchPageObject = new SearchPageObject(driver);
+
+        SearchPageObject.initSearchInput();
+        SearchPageObject.typeSearchLine("Java");
+
+        List<WebElement> article_titles_list = SearchPageObject.getSearchResultTitlesList();
+
+        for (int i = 0; i < article_titles_list.size(); i++)
+        {
+            assertEquals(
+                    "Some elements title does not contain 'Java'",
+                    true,
+                    article_titles_list.get(i).getText().toLowerCase().contains("java")
+            );
+        }
     }
 }
