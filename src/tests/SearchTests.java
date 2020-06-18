@@ -75,4 +75,16 @@ public class SearchTests extends CoreTestCase
             );
         }
     }
+
+    @Test
+    public void testCheckSearchResultsByTitleAndDescription()
+    {
+        SearchPageObject SearchPageObject = new SearchPageObject(driver);
+
+        SearchPageObject.initSearchInput();
+        SearchPageObject.typeSearchLine("Metallica");
+        SearchPageObject.waitForElementByTitleAndDescription("Metallica", "American heavy metal band");
+        SearchPageObject.waitForElementByTitleAndDescription("Metallica (album)", "1991 studio album by Metallica");
+        SearchPageObject.waitForElementByTitleAndDescription("Metallica discography", "Band discography");
+    }
 }
