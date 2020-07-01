@@ -20,23 +20,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed4abeb2-83fd-4026-aefb-0c3c977e0971" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/java_client_6_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_websocket_api_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/iOSTestCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/ui/WelcomePageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/iOS/GetStartedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/java_client_4_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/selenium_server_standalone_3_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/selenium_server_standalone_3_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/Platform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/ui/android/AndroidArticlePageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/ui/android/AndroidMyListsPageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/ui/android/AndroidNavigationUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/ui/android/AndroidSearchPageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/ui/factories/ArticlePageObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/ui/factories/MyListsPageObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/ui/factories/NavigationUIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/ui/factories/SearchPageObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/ui/ios/iOSArticlePageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/ui/ios/iOSMyListsPageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/ui/ios/iOSNavigationUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/ui/ios/iOSSearchPageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaAppiumAutomation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaAppiumAutomation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/java-client-4.1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/selenium-server-standalone-3.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/lib/CoreTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/lib/CoreTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/lib/ui/ArticlePageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/lib/ui/ArticlePageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/lib/ui/MainPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/lib/ui/MainPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/lib/ui/SearchPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/lib/ui/SearchPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/tests/ArticleTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/tests/ArticleTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/tests/ChangeAppConditionTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/tests/ChangeAppConditionTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/tests/MyListsTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/tests/MyListsTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/tests/SearchTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/tests/SearchTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/CoreTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/CoreTestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/iOSTestCase.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/ui/ArticlePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/ui/ArticlePageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/ui/MainPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/ui/MainPageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/ui/MyListsPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/ui/MyListsPageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/ui/NavigationUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/ui/NavigationUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/ui/SearchPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/ui/SearchPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/ui/WelcomePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/ui/WelcomePageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/ArticleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/ArticleTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/ChangeAppConditionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/ChangeAppConditionTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/MyListsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/MyListsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/SearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/iOS/GetStartedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/GetStartedTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +91,70 @@
       <recent name="lib" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SearchTests.testCheckEverySearchResultTitle">
+  <component name="RunManager" selected="JUnit.MyListsTests.testSaveArticleToMyList">
+    <configuration name="ArticleTests.testCompareArticleTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaAppiumAutomation" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ArticleTests" />
+      <option name="METHOD_NAME" value="testCompareArticleTitle" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <envs>
+        <env name="PLATFORM" value="ios" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleTests.testSwipeArticle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaAppiumAutomation" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ArticleTests" />
+      <option name="METHOD_NAME" value="testSwipeArticle" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <envs>
+        <env name="PLATFORM" value="ios" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyListsTests.testSaveArticleToMyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaAppiumAutomation" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.MyListsTests" />
+      <option name="METHOD_NAME" value="testSaveArticleToMyList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <envs>
+        <env name="PLATFORM" value="ios" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SearchTests.testCheckEverySearchResultTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation" />
       <useClassPathOnly />
@@ -109,7 +191,7 @@
       <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
       <envs>
-        <env name="PLATFORM" value="android" />
+        <env name="PLATFORM" value="ios" />
       </envs>
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,10 +210,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.SearchTests.testCheckEverySearchResultTitle" />
+      <item itemvalue="JUnit.SearchTests.testSearchInput" />
+      <item itemvalue="JUnit.ArticleTests.testCompareArticleTitle" />
+      <item itemvalue="JUnit.ArticleTests.testSwipeArticle" />
+      <item itemvalue="JUnit.MyListsTests.testSaveArticleToMyList" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SearchTests.testCheckEverySearchResultTitle" />
+        <item itemvalue="JUnit.MyListsTests.testSaveArticleToMyList" />
+        <item itemvalue="JUnit.ArticleTests.testSwipeArticle" />
+        <item itemvalue="JUnit.ArticleTests.testCompareArticleTitle" />
         <item itemvalue="JUnit.SearchTests.testSearchInput" />
+        <item itemvalue="JUnit.SearchTests.testCheckEverySearchResultTitle" />
       </list>
     </recent_temporary>
   </component>
@@ -177,10 +269,12 @@
       <screen x="0" y="23" width="1680" height="972" />
     </state>
     <state x="578" y="281" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1680.972@0.23.1680.972" timestamp="1592382747618" />
-    <state x="304" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593377806025">
-      <screen x="0" y="23" width="1680" height="972" />
+    <state x="304" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593634206204">
+      <screen x="0" y="23" width="1680" height="973" />
     </state>
     <state x="304" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.972@0.23.1680.972" timestamp="1593377806025" />
+    <state x="304" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.973@0.23.1680.973" timestamp="1593634206204" />
+    <state x="304" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.974@0.23.1680.974" timestamp="1593475888235" />
     <state x="678" y="224" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1593353864420">
       <screen x="0" y="23" width="1680" height="967" />
     </state>
@@ -189,38 +283,40 @@
       <screen x="0" y="23" width="1680" height="974" />
     </state>
     <state x="281" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1680.974@0.23.1680.974" timestamp="1590618278329" />
-    <state x="694" y="238" key="EnvironmentVariablesDialog" timestamp="1593377759223">
-      <screen x="0" y="23" width="1680" height="972" />
+    <state x="694" y="238" key="EnvironmentVariablesDialog" timestamp="1593633481361">
+      <screen x="0" y="23" width="1680" height="973" />
     </state>
     <state x="694" y="238" key="EnvironmentVariablesDialog/0.23.1680.972@0.23.1680.972" timestamp="1593377759223" />
-    <state width="1638" height="258" key="GridCell.Tab.0.bottom" timestamp="1593389724090">
-      <screen x="0" y="23" width="1680" height="972" />
+    <state x="694" y="238" key="EnvironmentVariablesDialog/0.23.1680.973@0.23.1680.973" timestamp="1593633481361" />
+    <state x="694" y="238" key="EnvironmentVariablesDialog/0.23.1680.974@0.23.1680.974" timestamp="1593475886844" />
+    <state width="1638" height="259" key="GridCell.Tab.0.bottom" timestamp="1593634225202">
+      <screen x="0" y="23" width="1680" height="973" />
     </state>
     <state width="1638" height="260" key="GridCell.Tab.0.bottom/0.23.1680.967@0.23.1680.967" timestamp="1590014757091" />
     <state width="1638" height="258" key="GridCell.Tab.0.bottom/0.23.1680.972@0.23.1680.972" timestamp="1593389724090" />
-    <state width="1638" height="260" key="GridCell.Tab.0.bottom/0.23.1680.973@0.23.1680.973" timestamp="1592514574815" />
-    <state width="1638" height="260" key="GridCell.Tab.0.bottom/0.23.1680.974@0.23.1680.974" timestamp="1592473161440" />
-    <state width="1638" height="258" key="GridCell.Tab.0.center" timestamp="1593389724089">
-      <screen x="0" y="23" width="1680" height="972" />
+    <state width="1638" height="259" key="GridCell.Tab.0.bottom/0.23.1680.973@0.23.1680.973" timestamp="1593634225202" />
+    <state width="1638" height="259" key="GridCell.Tab.0.bottom/0.23.1680.974@0.23.1680.974" timestamp="1593505493554" />
+    <state width="1638" height="259" key="GridCell.Tab.0.center" timestamp="1593634225201">
+      <screen x="0" y="23" width="1680" height="973" />
     </state>
     <state width="1638" height="260" key="GridCell.Tab.0.center/0.23.1680.967@0.23.1680.967" timestamp="1590014757090" />
     <state width="1638" height="258" key="GridCell.Tab.0.center/0.23.1680.972@0.23.1680.972" timestamp="1593389724089" />
-    <state width="1638" height="260" key="GridCell.Tab.0.center/0.23.1680.973@0.23.1680.973" timestamp="1592514574813" />
-    <state width="1638" height="260" key="GridCell.Tab.0.center/0.23.1680.974@0.23.1680.974" timestamp="1592473161439" />
-    <state width="1638" height="258" key="GridCell.Tab.0.left" timestamp="1593389724089">
-      <screen x="0" y="23" width="1680" height="972" />
+    <state width="1638" height="259" key="GridCell.Tab.0.center/0.23.1680.973@0.23.1680.973" timestamp="1593634225201" />
+    <state width="1638" height="259" key="GridCell.Tab.0.center/0.23.1680.974@0.23.1680.974" timestamp="1593505493553" />
+    <state width="1638" height="259" key="GridCell.Tab.0.left" timestamp="1593634225200">
+      <screen x="0" y="23" width="1680" height="973" />
     </state>
     <state width="1638" height="260" key="GridCell.Tab.0.left/0.23.1680.967@0.23.1680.967" timestamp="1590014757089" />
     <state width="1638" height="258" key="GridCell.Tab.0.left/0.23.1680.972@0.23.1680.972" timestamp="1593389724089" />
-    <state width="1638" height="260" key="GridCell.Tab.0.left/0.23.1680.973@0.23.1680.973" timestamp="1592514574813" />
-    <state width="1638" height="260" key="GridCell.Tab.0.left/0.23.1680.974@0.23.1680.974" timestamp="1592473161439" />
-    <state width="1638" height="258" key="GridCell.Tab.0.right" timestamp="1593389724089">
-      <screen x="0" y="23" width="1680" height="972" />
+    <state width="1638" height="259" key="GridCell.Tab.0.left/0.23.1680.973@0.23.1680.973" timestamp="1593634225200" />
+    <state width="1638" height="259" key="GridCell.Tab.0.left/0.23.1680.974@0.23.1680.974" timestamp="1593505493552" />
+    <state width="1638" height="259" key="GridCell.Tab.0.right" timestamp="1593634225201">
+      <screen x="0" y="23" width="1680" height="973" />
     </state>
     <state width="1638" height="260" key="GridCell.Tab.0.right/0.23.1680.967@0.23.1680.967" timestamp="1590014757090" />
     <state width="1638" height="258" key="GridCell.Tab.0.right/0.23.1680.972@0.23.1680.972" timestamp="1593389724089" />
-    <state width="1638" height="260" key="GridCell.Tab.0.right/0.23.1680.973@0.23.1680.973" timestamp="1592514574814" />
-    <state width="1638" height="260" key="GridCell.Tab.0.right/0.23.1680.974@0.23.1680.974" timestamp="1592473161440" />
+    <state width="1638" height="259" key="GridCell.Tab.0.right/0.23.1680.973@0.23.1680.973" timestamp="1593634225201" />
+    <state width="1638" height="259" key="GridCell.Tab.0.right/0.23.1680.974@0.23.1680.974" timestamp="1593505493553" />
     <state width="1638" height="324" key="GridCell.Tab.1.bottom" timestamp="1591598284255">
       <screen x="0" y="23" width="1680" height="973" />
     </state>
@@ -249,11 +345,11 @@
       <screen x="0" y="23" width="1680" height="967" />
     </state>
     <state x="208" y="129" key="new project wizard/0.23.1680.967@0.23.1680.967" timestamp="1590012341151" />
-    <state x="505" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1592353478399">
-      <screen x="0" y="23" width="1680" height="972" />
+    <state x="505" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1593633180745">
+      <screen x="0" y="23" width="1680" height="973" />
     </state>
     <state x="505" y="236" width="670" height="672" key="search.everywhere.popup/0.23.1680.967@0.23.1680.967" timestamp="1592044912751" />
     <state x="505" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.972@0.23.1680.972" timestamp="1592353478399" />
-    <state x="505" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.973@0.23.1680.973" timestamp="1591650095689" />
+    <state x="505" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.973@0.23.1680.973" timestamp="1593633180745" />
   </component>
 </project>
