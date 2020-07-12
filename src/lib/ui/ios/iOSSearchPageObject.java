@@ -10,10 +10,9 @@ public class iOSSearchPageObject extends SearchPageObject
         SEARCH_INPUT = "xpath://XCUIElementTypeSearchField";
         SEARCH_CANCEL_BUTTON = "id:Close";
         SEARCH_RESULT_BY_SUBSTRING_TPL = "xpath://XCUIElementTypeStaticText[contains(@name, '{SUBSTRING}')]";
-        SEARCH_RESULT_ELEMENT = "xpath://XCUIElementTypeCollectionView/XCUIElementTypeCell[3]/XCUIElementTypeOther[2]";
+//        SEARCH_RESULT_ELEMENT = "xpath://XCUIElementTypeCollectionView/XCUIElementTypeCell[3]/XCUIElementTypeOther[2]";
         SEARCH_EMPTY_RESULT_LABEL = "id:No results found";
-//        SEARCH_RESULT_TITLE = "id:org.wikipedia:id/page_list_item_title";
-//        SEARCH_RESULT_BY_TITLE_AND_DESCRIPTION = "xpath://ancestor::*[*[@text='{TITLE}'] and *[@text='{DESCRIPTION}']]";
+        SEARCH_RESULT_BY_TITLE_AND_DESCRIPTION = "xpath://ancestor::*[*[@name='{TITLE}'] and *[@name='{DESCRIPTION}']]";
     }
 
     public iOSSearchPageObject(AppiumDriver driver)
