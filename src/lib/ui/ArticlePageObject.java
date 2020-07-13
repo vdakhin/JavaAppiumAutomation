@@ -17,7 +17,8 @@ abstract public class ArticlePageObject extends MainPageObject
             MY_LIST_NAME_INPUT,
             MY_LIST_OK_BUTTON,
             CLOSE_ARTICLE_BUTTON,
-            EXISTING_LIST_BY_NAME_TPL;
+            EXISTING_LIST_BY_NAME_TPL,
+            CLOSE_BUTTON_FOR_SYNC_YOUR_SAVED_ARTICLES_POP_UP;
 
     /* TEMPLATES METHODS */
     private static String getFolderXPathByName(String name_of_folder)
@@ -43,7 +44,7 @@ abstract public class ArticlePageObject extends MainPageObject
             return title_element.getAttribute("text");
         } else {
             return title_element.getAttribute("name");
-    }
+        }
     }
 
     public void swipeToFooter()
@@ -137,5 +138,14 @@ abstract public class ArticlePageObject extends MainPageObject
     public boolean titleElementPresent()
     {
         return this.assertElementPresent(TITLE);
+    }
+
+    public void closeSyncYourSavedArticlesPopUp()
+    {
+        this.waitForElementAndClick(
+                CLOSE_BUTTON_FOR_SYNC_YOUR_SAVED_ARTICLES_POP_UP,
+                "Cannot find 'Sync Your Saved Articles' pop-up close button",
+                5
+        );
     }
 }

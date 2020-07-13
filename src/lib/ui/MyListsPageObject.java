@@ -87,7 +87,11 @@ abstract public class MyListsPageObject extends MainPageObject
     public String getArticleTitle()
     {
         WebElement title_element = waitForTitleElement();
-        return title_element.getAttribute("text");
+        if (Platform.getInstance().isAndroid()) {
+            return title_element.getAttribute("text");
+        } else {
+            return title_element.getAttribute("name");
+        }
     }
 
     public void clickArticleByTitle(String article_title)
